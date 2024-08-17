@@ -1,0 +1,6 @@
+
+.body {
+  background-color: #585858; /* Choose your desired background color */
+  min-height: 100vh; /* Ensure it covers the entire height of the viewport */
+  padding: 20px;
+}

@@ -1,0 +1,111 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(44, 44, 44);
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.homeH1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin-left: 5%;
+}
+
+.homeInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px; /* Adjust width as needed */
+    border-radius: 80px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.homeInput label {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+}
+
+.homeInputField {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.homeButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 32%;
+    margin-top: 10px;
+}
+
+.homeButton:hover {
+    background-color: #7b7b7b;
+}
+
+.homeGames {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px; /* Adjust width as needed */
+}
+
+.homeGameList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gameListItem {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.gameButton {
+    width: 110%;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #393939;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+
+.gameButton:hover {
+    background-color: #d0d0d0;
+}
+
+.homeH2 {
+    font-size: 3rem;
+    margin-left: 3%;
+    font-weight: bold;
+}

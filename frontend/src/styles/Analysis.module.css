@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+h2 {
+  font-size: 3.5rem;
+  margin-left: 50px;
+  color: #ffffff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-right: 100px;
+}
+
+.main-board-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns items at the top */
+  gap: 20px;
+}
+
+.moves-container {
+  max-height: 510px; /* Match the height of the chessboard */
+  overflow-y: auto;
+  font-size: 1rem;
+  font-weight: bold; /* Smaller font size */
+  width: 150px; /* Adjust width as needed */
+  background-color: #5d5d5d; /* Match border color */
+  border: #2b2b2b solid 20px; /* Match chessboard border */
+  border-radius: 10px; /* Add rounded corners to match chessboard style */
+  padding: 10px;
+  border-width: 10px;/* Add some padding to the content inside */
+}
+
+
+.board-and-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.board-and-bar {
+  display: flex;
+}
+
+.board-container {
+  margin-bottom: 20px;
+  border: #939393 solid 20px;
+  border-radius: 10px;
+}
+
+.evaluation-bar-container {
+  width: 35px;
+  height: 550px; /* Match the height of the chessboard */
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column-reverse; /* White at the bottom by default */
+}
+
+.evaluation-bar-white {
+  width: 100%;
+  background-color: white;
+  transition: height 0.3s ease-in-out;
+}
+
+.evaluation-bar-black {
+  width: 100%;
+  background-color: black;
+  transition: height 0.3s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 75px;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.move-info {
+  font-size: 1.5rem;
+  
+  margin-left: 20px;
+  margin-top: 50px;
+  text-align: center;
+  color: #f0efef;
+  background-color: #5d5d5d;
+  border: #2b2b2b;
+  border-width: 8px;
+  border-radius: 20px;
+  border-style: solid;
+  column-count: 1;
+  width: 150px; /* Adjust the width as needed */
+}
